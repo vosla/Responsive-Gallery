@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+#header {
+    padding: 0;
+    margin: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#header h1 {
+    padding: 0;
+    margin-left: 15px;
+}
+
+#all-in {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#row {
+    position: relative;
+    width: 320px;
+    background: rgb(36, 131, 185);
+    padding: 0;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgb(56, 56, 56);
+}
+
+#slika img {
+    width: 100%;
+}
+
+#text {
+    background: white;
+    padding: 5px 0 5px;
+    margin: 0;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+#p {
+    padding: 15px;
+    margin: 0 15px;
+    text-align: left;
+}
+
+p {
+    overflow-wrap: normal;
+}
+
+@media screen and (max-width: 1024px) {
+    .column {
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .column {
+        width: 100%;
+    }
+}
+
+p {
+    font-size: 19px;
+}
+
+@media screen and (max-width: 1024px) {
+    p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    p {
+        font-size: 16px;
+    }
+}
